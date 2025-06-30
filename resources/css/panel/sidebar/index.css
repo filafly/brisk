@@ -15,6 +15,15 @@
     @apply bg-white text-gray-900 dark:bg-gray-900/75 dark:text-white;
 }
 
+.fi-sidebar-item.fi-active .fi-sidebar-item-grouped-border .fi-sidebar-item-grouped-border-part {
+    @apply bg-gray-900/75 dark:bg-white/75;
+}
+
+.fi-sidebar-item.fi-active .fi-sidebar-item-grouped-border .fi-sidebar-item-grouped-border-part-not-last,
+.fi-sidebar-item.fi-active .fi-sidebar-item-grouped-border .fi-sidebar-item-grouped-border-part-not-first {
+    @apply bg-gray-900/25 dark:bg-white/25;
+}
+
 /* TODO: Implement this */
 .fi-sidebar-group-dropdown-trigger-btn {
     @apply rounded-3xl;
