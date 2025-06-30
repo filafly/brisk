@@ -10,9 +10,6 @@
     @apply bg-primary-400 dark:bg-primary-600 text-gray-900/75 dark:text-white;
 }
 
-/* .fi-badge.fi-color-secondary {
-    @apply bg-secondary-400 dark:bg-secondary-600 text-white;
+.fi-icon-btn-badge-ctn {
+    @apply -ml-1.5 mt-0.5 bg-transparent;
 }
-
-.fi-badge.fi-color-success {
-} */

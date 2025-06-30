@@ -1,0 +1,7 @@
+.fi-modal-window {
+    @apply rounded-3xl;
+}
+
+.fi-modal-close-overlay {
+    @apply backdrop-blur-xs;
+}

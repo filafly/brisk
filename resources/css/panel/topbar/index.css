@@ -3,7 +3,7 @@
 }
 
 .fi-topbar-item.fi-active .fi-topbar-item-btn {
-    @apply bg-primary-400 dark:bg-primary-600 shadow-sm outline-1 outline-black/25;
+    @apply bg-primary-400 dark:bg-primary-600 shadow-sm;
 }
 
 .fi-topbar-item.fi-active .fi-topbar-item-label,
@@ -13,6 +13,10 @@
 
 .fi-topbar-item.fi-active .fi-topbar-item-badge-ctn .fi-badge {
     @apply bg-white text-gray-900 dark:bg-gray-900/75 dark:text-white;
+}
+
+.fi-topbar-item.fi-active .fi-topbar-group-toggle-icon {
+    @apply text-gray-900/75 dark:text-white;
 }
 
 /* TODO: Implement this */

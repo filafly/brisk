@@ -1,2 +1,6 @@
 @import './button/index.css';
 @import './badge/index.css';
+@import './dropdown/index.css';
+@import './modal/index.css';
+@import './section/index.css';
+@import './tabs/index.css';

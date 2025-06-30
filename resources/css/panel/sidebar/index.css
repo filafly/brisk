@@ -3,7 +3,7 @@
 }
 
 .fi-sidebar-item.fi-active .fi-sidebar-item-btn {
-    @apply bg-primary-400 dark:bg-primary-600 shadow-sm outline-1 outline-black/25;
+    @apply bg-primary-400 dark:bg-primary-600 shadow-sm;
 }
 
 .fi-sidebar-item.fi-active .fi-sidebar-item-label,
