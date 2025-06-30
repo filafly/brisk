@@ -1,0 +1,40 @@
+{
+  "name": "filafly/clear",
+  "description": "A simple, friendly theme for Filament.",
+  "homepage": "https://github.com/filafly/clear",
+  "license": "proprietary",
+  "keywords": [
+    "Laravel",
+    "Filament",
+    "theme",
+    "clear",
+    "friendly",
+    "simple"
+  ],
+  "homepage": "https://filafly.com/themes/clear",
+  "authors": [
+    {
+      "role": "Developer",
+      "name": "Nolan Nordlund",
+      "email": "nolan@filafly.com",
+      "homepage": "https://www.filafly.com/"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Filafly\\Themes\\Clear\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "filament/filament": "^4.0"
+  },
+  "minimum-stability": "beta",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true
+  },
+  "require-dev": {
+    "laravel/pint": "^1.22"
+  }
+}
