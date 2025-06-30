@@ -27,6 +27,7 @@
   },
   "require": {
     "php": "^8.2",
+    "filafly/theme-core": "^0.1.0",
     "filament/filament": "^4.0"
   },
   "minimum-stability": "beta",
