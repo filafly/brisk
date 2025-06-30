@@ -16,6 +16,6 @@ class ClearTheme extends ThemeCore
 
     public function fontConfiguration(Panel $panel): void
     {
-        $panel->font('Karla');
+        $panel->font('Kumbh Sans');
     }
 }
