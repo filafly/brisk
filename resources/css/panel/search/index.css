@@ -1,0 +1,11 @@
+.fi-global-search-results-ctn {
+    @apply rounded-l-3xl;
+}
+
+.fi-global-search-result-group-header {
+    @apply px-6 py-4;
+}
+
+.fi-global-search-result {
+    @apply px-2;
+}

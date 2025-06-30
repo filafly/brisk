@@ -1,0 +1,18 @@
+.fi-badge {
+    @apply rounded-full;
+}
+
+.fi-badge:not(.fi-color) {
+    @apply bg-gray-400 dark:bg-gray-600 text-gray-900 dark:text-white;
+}
+
+.fi-badge.fi-color-primary {
+    @apply bg-primary-400 dark:bg-primary-600 text-gray-900/75 dark:text-white;
+}
+
+/* .fi-badge.fi-color-secondary {
+    @apply bg-secondary-400 dark:bg-secondary-600 text-white;
+}
+
+.fi-badge.fi-color-success {
+} */
