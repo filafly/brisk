@@ -1,4 +1,4 @@
-![Banner](https://filafly.com/images/brisk/brisk-mockup.jpg)
+![Banner](https://filafly.com/images/brisk/brisk-mockup.png)
 
 Elevate your Filament admin panels with Brisk - a free theme that combines simplicity with a welcoming aesthetic. Thoughtfully designed to beautify your application while preserving all of Filament's robust features and capabilities.
 
