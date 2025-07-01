@@ -1,5 +1,6 @@
 @import '../../vendor/filament/filament/resources/css/theme.css';
 @import './form/index.css';
+@import './notifications/index.css';
 @import './panel/index.css';
 @import './support/index.css';
 @import './table/index.css';

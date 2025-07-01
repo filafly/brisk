@@ -1,0 +1,7 @@
+.fi-no-database .fi-modal-content {
+    @apply p-0 m-0;
+}
+
+.fi-no-notification {
+    @apply rounded-3xl;
+}

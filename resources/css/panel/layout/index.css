@@ -1,3 +1,7 @@
 .fi-simple-main {
     @apply rounded-3xl;
 }
+
+.fi-page-header-main-ctn .fi-header .fi-header-heading {
+    @apply relative inline-block after:content-[''] after:absolute after:-z-10 after:-left-1 after:-right-1 after:bottom-1 after:rounded-full after:bg-primary-400/75 dark:after:bg-primary-600/75 after:h-1.5;
+}

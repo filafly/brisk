@@ -5,3 +5,7 @@
 .fi-modal-close-overlay {
     @apply backdrop-blur-xs;
 }
+
+.fi-modal-slide-over .fi-modal-window {
+    @apply mt-2 mr-3 h-[calc(100vh-2rem)];
+}

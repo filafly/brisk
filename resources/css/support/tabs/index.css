@@ -6,6 +6,15 @@
     @apply rounded-full;
 }
 
-.fi-page-header-main-ctn .fi-header .fi-header-heading {
-    @apply relative inline-block after:content-[''] after:absolute after:-z-10 after:-left-1 after:-right-1 after:bottom-1 after:rounded-full after:bg-primary-400/75 dark:after:bg-primary-600/75 after:h-1.5;
+.fi-tabs-item.fi-active {
+    @apply bg-primary-400 dark:bg-primary-600;
+}
+
+.fi-tabs-item.fi-active .fi-tabs-item-label,
+.fi-tabs-item.fi-active .fi-icon {
+    @apply text-gray-900/75 dark:text-white;
+}
+
+.fi-tabs-item.fi-active .fi-badge {
+    @apply bg-white text-gray-900 dark:bg-gray-900/75 dark:text-white;
 }
