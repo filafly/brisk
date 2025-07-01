@@ -1,13 +1,13 @@
 <?php
 
-namespace Filafly\Themes\Clear;
+namespace Filafly\Themes\Brisk;
 
 use Filafly\Themes\Core\ThemeCore;
 use Filament\Panel;
 
-class ClearTheme extends ThemeCore
+class BriskTheme extends ThemeCore
 {
-    public string $identifier = 'filafly-clear-theme';
+    public string $identifier = 'filafly-brisk-theme';
 
     public function registerTheme(Panel $panel): void
     {

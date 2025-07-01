@@ -1,17 +1,17 @@
 {
-  "name": "filafly/clear",
+  "name": "filafly/brisk",
   "description": "A simple, friendly theme for Filament.",
-  "homepage": "https://github.com/filafly/clear",
+  "homepage": "https://github.com/filafly/brisk",
   "license": "proprietary",
   "keywords": [
     "Laravel",
     "Filament",
     "theme",
-    "clear",
+    "brisk",
     "friendly",
     "simple"
   ],
-  "homepage": "https://filafly.com/themes/clear",
+  "homepage": "https://filafly.com/themes/brisk",
   "authors": [
     {
       "role": "Developer",
@@ -22,7 +22,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Filafly\\Themes\\Clear\\": "src/"
+      "Filafly\\Themes\\Brisk\\": "src/"
     }
   },
   "require": {
