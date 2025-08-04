@@ -36,6 +36,7 @@
     "sort-packages": true
   },
   "require-dev": {
-    "laravel/pint": "^1.22"
+    "laravel/pint": "^1.22",
+    "phpunit/phpunit": "^12.3"
   }
 }
