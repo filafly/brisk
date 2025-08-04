@@ -1,3 +1,12 @@
 .fi-btn {
-    @apply rounded-full px-4 text-gray-900/75 dark:text-white shadow-sm;
+    @apply rounded-full px-4 shadow-sm;
+}
+
+div.fi-fo-toggle-buttons-btn-ctn > input:checked + label {
+    @apply text-(--text) dark:text-(--dark-text) bg-(--bg);
+}
+
+div.fi-fo-toggle-buttons-btn-ctn > input:checked + label,
+div.fi-fo-toggle-buttons-btn-ctn > input:checked + label > .fi-icon {
+    @apply text-(--text) dark:text-(--dark-text);
 }
